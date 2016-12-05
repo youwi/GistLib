@@ -47,8 +47,8 @@ Gist库
 
 + 在按键映射表中修改Win/Fn键的映射
  - 使用16进制编辑器(Uedit或Winhex/https://www.mh-nexus.de)打开EC固件文件
- - 互换按键映射表中的`0x9C`和`0x96`这两个字节(详细参考[以下文件][Comp]和[这篇文章][Smth]) (倒数第2节，搜索16进制B396和9CBD）
- - 注：原地址不可访问了.用16进程编辑器打开以后做下对比(请查看我上传的图片）
+ - 互换按键映射表中的`0x9C`和`0x96`这两个字节(详细参考[以下文件][Comp]和[这篇文章][Smth]) (搜索ver定位倒数第2节，搜索16进制B396和9CBD）
+ - 注：原地址不可访问了.用16进程编辑器打开以后做下对比(请查看我上传的图片放大后查看)
 <img src="https://raw.githubusercontent.com/youwi/GistLib/master/Swapping-Win-key-and-the-Fn-key-on-msi-GE/img/find-key2.png" width = "329" height = "300" alt="图片3" align=center /> 
 <img src="https://raw.githubusercontent.com/youwi/GistLib/master/Swapping-Win-key-and-the-Fn-key-on-msi-GE/img/find-keys.png" width = "329" height = "300" alt="图片3" align=center /> 
  
