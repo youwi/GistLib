@@ -49,6 +49,8 @@ Gist库
  - 使用16进制编辑器(Uedit或Winhex/https://www.mh-nexus.de)打开EC固件文件
  - 互换按键映射表中的`0x9C`和`0x96`这两个字节(详细参考[以下文件][Comp]和[这篇文章][Smth]) (倒数第2节，搜索16进制B396和9CBD）
  - 注：原地址不可访问了.用16进程编辑器打开以后做下对比(请查看我上传的图片）
+<img src="https://raw.githubusercontent.com/youwi/GistLib/master/Swapping-Win-key-and-the-Fn-key-on-msi-GE/img/find-key2.png" width = "329" height = "300" alt="图片3" align=center /> 
+<img src="https://raw.githubusercontent.com/youwi/GistLib/master/Swapping-Win-key-and-the-Fn-key-on-msi-GE/img/find-keys.png" width = "329" height = "300" alt="图片3" align=center /> 
  
 + 回刷EC
  - 使用修改完的EC文件替换下载的EC文件, 按照说明文件的步骤更新修改后的EC(刷入期间风扇会失去速度控制, 属正常情况)
